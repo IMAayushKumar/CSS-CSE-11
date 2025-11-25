@@ -1,0 +1,23 @@
+div{
+    width: 500px;
+    height: 270px;
+    border: 4px solid black;
+    padding: 20px;
+    margin: auto;
+
+}
+.b{
+    width: 300px;
+    height: 110px;
+    border: 2px solid black;
+    background-color: blue;
+   padding: 20px;
+ margin: auto;
+}
+.c{
+    background-color: rgb(227, 243, 6);
+    width: 200px;
+    height: 50px;
+    margin: auto;
+
+}
