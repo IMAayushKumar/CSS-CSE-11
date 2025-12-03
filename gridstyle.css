@@ -4,17 +4,23 @@
     width: 1000px;
     background-color: rgb(159, 183, 56);
     border: 1px solid black;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,100px)
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas: "header header header header " "main main.sidebar" "footer footer footer footer";
     column-gap: 10px;
     justify-items: center;
     align-items:center ;
     place-items: center;
-    justify-content: ;
+    justify-content:center ;
+    /* horizontal movement */
+    align-content:center;
+    /* vrtically movement  */
+    grid-auto-columns: ;
+    grid-auto-flow: ;
+
     
 
-}
+
 .item{
     height: 100px;
     width: 100px;
@@ -25,6 +31,7 @@
 }  
 /* .item1{
     grid-area: header;
+    justify self start|end|center|align.
 }
 .item2{
      grid-area: main;
