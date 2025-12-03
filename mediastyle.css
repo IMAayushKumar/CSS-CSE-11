@@ -1,0 +1,26 @@
+@media(max-width)
+/* 320px mobile phone samll
+480 px large mobiles
+768px tablets
+1024 small laptops
+1200+ desktops */
+
+@media(max-width:768px) {
+    .box{
+        width:100px;
+        height:100px;
+        background-color:pink;
+    }
+    
+}  
+li{list-style-type:none;
+text-decoration: none;}
+nav ol{
+    display: flex;
+    justify-content: space-around;
+    display: non;
+}
+li{
+
+}
+    
